@@ -1,0 +1,13 @@
+name: SmartPrice
+channels:
+- conda-forge
+dependencies:
+  - python=3.7
+  - conda
+  - pandas
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - pip
+  - pip:
+    - streamlit
