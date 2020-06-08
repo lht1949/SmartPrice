@@ -9,5 +9,6 @@ dependencies:
   - numpy
   - scikit-learn
   - pip
+  - pickle
   - pip:
     - streamlit
