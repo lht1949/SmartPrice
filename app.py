@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import sklearn
+#import sklearn
 
 # year = st.slider('year of purchase', min_value=2015, max_value=2019, value=2015)
 # st.markdown(f"your laptop was purchase in {year}")

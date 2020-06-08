@@ -8,6 +8,7 @@ dependencies:
   - matplotlib
   - numpy
   - scikit-learn
+  - sklearn
   - pip
   - pickle
   - pip:
