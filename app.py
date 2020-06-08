@@ -15,7 +15,7 @@ Optimum price for your used laptop!
 
 @st.cache
 def load_data():
-    data = pd.read_csv('everymac.csv')
+    data = pd.read_csv('./data/everymac.csv')
     return data
 
 computer_cat = load_data()
@@ -58,6 +58,6 @@ elif brand_selected == 'macbook air':
 
 predictors = [int(screen_size_selected), int(year_selected), cpu_dict.get(cpu_selected), ram_dict.get(ram_selected), storage_dict.get(storage_selected)]
 
-loaded_model = pickle.load(open('rf_fixedprice_regrssor.pkl', 'rb'))
+loaded_model = pickle.load(open('./data/rf_fixedprice_regrssor.pkl', 'rb'))
 value = round(loaded_model.predict([predictors+temp])[0])
 st.write(f'The market value of your mac is ${int(value)}!')
