@@ -1,3 +1,4 @@
+Python == 3.7.7
 streamlit==0.59
 scikit-learn==0.22.1
 ebaysdk == 2.2.0
