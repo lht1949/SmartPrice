@@ -11,5 +11,6 @@ dependencies:
   - sklearn
   - pip
   - pickle
+  - ebaysdk
   - pip:
     - streamlit
