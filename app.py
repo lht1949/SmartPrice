@@ -47,6 +47,8 @@ storage_selected = st.sidebar.selectbox("Hard drive choices", list(storage_filte
 storage_type_filtered_data = storage_filtered_data.loc[storage_filtered_data['storage'] == storage_selected]
 storage_type_selected = st.sidebar.selectbox("Hard drive type choices", list(storage_filtered_data['storage_type'].unique()), 0)
 
+st.write(list(computer_cat[computer_cat['cpu'] ==  cpu_selected]['cpu_rank'])
+
 cpu_rank = list(computer_cat[computer_cat['cpu'] ==  cpu_selected]['cpu_rank'].unique())
 
 ram_rank = list(computer_cat[computer_cat['ram'] ==  ram_selected]['ram_rank'].unique())
