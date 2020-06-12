@@ -17,7 +17,7 @@ Optimum price for your used laptop!
 
 @st.cache
 def load_data():
-    data = pd.read_csv('everymac.csv')
+    data = pd.read_csv('./data/everymac.csv')
     return data
 
 computer_cat = load_data()
@@ -66,7 +66,7 @@ storage_rank = list(computer_cat[computer_cat['storage'] ==  storage_selected]['
 
 predictors = [int(screen_size_selected), int(year_selected), int(cpu_rank[0]), int(ram_rank[0]), int(storage_rank[0])]
 
-loaded_model = pickle.load(open('rf_regrssor.pkl', 'rb'))
+loaded_model = pickle.load(open('./data/rf_regrssor.pkl', 'rb'))
 #value = round(loaded_model.predict([predictors+temp])[0])
 value = round(loaded_model.predict([predictors])[0])
 
