@@ -35,10 +35,10 @@ year_filtered_data = brand_filtered_data.loc[brand_filtered_data['year'] == year
 screen_size_selected = st.sidebar.selectbox("Screen size choices", list(year_filtered_data['screen_size'].unique()), 0)
 
 screen_size_filtered_data = year_filtered_data.loc[year_filtered_data['screen_size'] == screen_size_selected]
-cpu_selected = st.sidebar.selectbox("Cpu choices", list(screen_size_filtered_data['cpu'].unique()), 0)
+cpu_selected = st.sidebar.selectbox("CPU choices", list(screen_size_filtered_data['cpu'].unique()), 0)
 
 cpu_filtered_data = screen_size_filtered_data.loc[year_filtered_data['cpu'] == cpu_selected]
-ram_selected = st.sidebar.selectbox("Cpu choices", list(cpu_filtered_data['ram'].unique()), 0)
+ram_selected = st.sidebar.selectbox("RAM choices", list(cpu_filtered_data['ram'].unique()), 0)
 
 storage_filtered_data = cpu_filtered_data.loc[cpu_filtered_data['ram'] == ram_selected]
 storage_selected = st.sidebar.selectbox("Hard drive choices", list(storage_filtered_data['storage'].unique()), 0)
@@ -131,12 +131,13 @@ def check_current_listing(keywords):
 keywords = brand_selected+' '+str(screen_size_selected) +' '+ str(year_selected) +' '+ cpu_selected + ' '+ram_selected + ' '+ storage_selected +' -parts -repair -read'
 df_realtime = check_current_listing(keywords)
 numListing = df_realtime.shape[0]
-if numListing >0:
-    price_listing_mean = df_realtime['price'].mean()
+
 
 st.write(f'The market value of your mac is ${int(value)}! The number of current listings of the selected laptop is {numListing}.')
 
-st.write(f'The everage of prices of the current listings of the selected laptop is ${int(price_listing_mean)}.')
+# if numListing >0:
+#     price_listing_mean = df_realtime['price'].mean()
+#     st.write(f'The everage of prices of the current listings of the selected laptop is ${int(price_listing_mean)}.')
 
 @st.cache
 def load_imag():
