@@ -110,8 +110,8 @@ def check_current_listing(keywords):
             if item.condition.conditionId != '3000':
                 continue
 #             # not interested in store data
-#             if item.listingInfo.listingType == 'StoreInventory':
-#                 continue
+            if item.listingInfo.listingType == 'StoreInventory':
+                continue
             if int(item.sellerInfo.feedbackScore) > 10000:
                 continue
 
@@ -125,32 +125,27 @@ def check_current_listing(keywords):
 
             listing = [title,price,listingType]
             df_realtime.loc[len(df_realtime),:] = listing
-    return df_realtime.shape[0]
+    return df_realtime
 
 
 keywords = brand_selected+' '+str(screen_size_selected) +' '+ str(year_selected) +' '+ cpu_selected + ' '+ram_selected + ' '+ storage_selected +' -parts -repair -read'
-numListing = check_current_listing(keywords)
+df_realtime = check_current_listing(keywords)
+numListing = df_realtime.shape[0]
+if numListing >0:
+    price_listing_mean = df_realtime['price'].mean()
 
 st.write(f'The market value of your mac is ${int(value)}! The number of current listings of the selected laptop is {numListing}.')
 
-if (year_selected == 2015) & (brand_selected =='macbook'):
-    st.image('https://techcrunch.com/wp-content/uploads/2015/04/macbook-front.jpg?w=730&crop=1', width=400)
+st.write(f'The everage of prices of the current listings of the selected laptop is ${int(price_listing_mean)}.')
 
-elif (year_selected == 2016) & (brand_selected =='macbook'):
-    st.image('https://cnet3.cbsistatic.com/img/w1eCN8WZ-8dujQWgg57SABUrE9A=/1200x675/2016/04/19/9102f487-6b02-4987-bfd7-0268c91b53ea/apple-macbook-2016-22.jpg', width=400)
+@st.cache
+def load_imag():
+    data = pd.read_csv('./data/everymac_imag.csv')
+    return data
 
-elif (year_selected == 2017) & (brand_selected =='macbook'):
-    st.image('https://i.pcmag.com/imagery/reviews/005x4wlhEjDj4CRKQQuVVet-10.fit_scale.size_1028x578.v_1569472269.jpg', width=400)
+def show_imag():
+    img_url = load_imag()
+    url = img_url[(img_url['screen_size'] == screen_size_selected) & (img_url['product'] == brand_selected) & (img_url['year'] == year_selected)]['url']
+    st.image(list(url)[0], width=400)
 
-
-
-elif (year_selected == 2010) & (brand_selected =='macbook air') & (screen_size_selected == 11):
-    st.image('https://images.anandtech.com/reviews/mac/macbookair2011/DSC_4301.jpg', width=400)
-
-
-elif (year_selected == 2015) & (brand_selected =='macbook air') & (screen_size_selected == 11):
-    st.image('https://i.pcmag.com/imagery/reviews/025GQFzhMiBKUqeRWEheThp-6.fit_scale.size_1028x578.v_1569481443.jpg', width=400)
-
-
-elif (year_selected == 2015) & (brand_selected =='macbook air') & (screen_size_selected == 13):
-    st.image('https://cnet2.cbsistatic.com/img/ajvbHHC5YGYoPgpiTCMagICG9Ws=/868x488/2015/05/06/1503bb41-3bf4-412a-8e7a-a94c084b140d/apple-macbook-air-2015-02.jpg', width=400)
+show_imag()
