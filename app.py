@@ -46,6 +46,13 @@ storage_selected = st.sidebar.selectbox("Hard drive choices", list(storage_filte
 storage_type_filtered_data = storage_filtered_data.loc[storage_filtered_data['storage'] == storage_selected]
 storage_type_selected = st.sidebar.selectbox("Hard drive type choices", list(storage_filtered_data['storage_type'].unique()), 0)
 
+cpu_score = list(computer_cat[computer_cat['cpu'] ==  cpu_selected]['cpu_score'].unique())
+
+ram_rank = list(computer_cat[computer_cat['ram'] ==  ram_selected]['ram_rank'].unique())
+
+storage_rank = list(computer_cat[computer_cat['storage'] ==  storage_selected]['storage_rank'].unique())
+
+
 
 
 
@@ -125,17 +132,14 @@ now_string = now.strftime("%Y-%m-%d %H:%M")
 keyMean = storage_type_filtered_data['keyMean'].iat[0]
 
 
-predictors = [startDayInWeek, startHourInDay, FixListingMeanPrice, numACU, numFIX]
-# predictors = [4, 16.5833 , 849, 50, 0]
+predictors = [int(screen_size_selected), int(year_selected),   int(ram_rank[0]),  int(storage_rank[0]), int(cpu_score[0]), startDayInWeek, startHourInDay, float(FixListingMeanPrice), numACU, numFIX]
 
-loaded_model = pickle.load(open('./data/rf_classifier.pkl', 'rb'))
-#value = round(loaded_model.predict([predictors+temp])[0])
-if loaded_model.predict([predictors])[0] == 1:
-    aboveORnot = 'above'
-else:
-    aboveORnot = 'lower than'
+st.write(predictors )
+st.write(keyMean)
+loaded_model = pickle.load(open('./data/rf_regressor_t.pkl', 'rb'))
+value = round(loaded_model.predict([predictors])[0])
 
-
+st.write(f'If you would like to list your laptop now {now_string}, the recommend listing price is ${value}.')
 
 @st.cache
 def load_imag():

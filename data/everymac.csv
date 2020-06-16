@@ -1,128 +1,128 @@
-product,screen_size,year,cpu,cpu_model,cpu_score,cpu_rank,ram,ram_rank,storage,storage_rank,storage_type,d_video_card,d_vc_model,keyMean
-macbook,12,2015,m 1.2,M-5Y51,1523,1,8 gb,3,512 gb,5,ssd,n,,494
-macbook,12,2015,m 1.1,M-5Y31,1972,2,8 gb,3,256 gb,3,ssd,n,,483
-macbook,12,2015,m 1.3,M-5Y71,2002,2,8 gb,3,256 gb,3,ssd,n,,450
-macbook,12,2015,m 1.3,M-5Y71,2002,2,8 gb,3,512 gb,5,ssd,n,,484
-macbook,12,2016,m3 1.1,M3-6Y30,1027,1,8 gb,3,256 gb,3,ssd,n,,566
-macbook,12,2016,m7 1.3,M7-6Y75,1303,1,8 gb,3,256 gb,3,ssd,n,,690
-macbook,12,2016,m7 1.3,M7-6Y75,1303,1,8 gb,3,512 gb,5,ssd,n,,526
-macbook,12,2016,m5 1.2,M5-6Y54,1409,1,8 gb,3,512 gb,5,ssd,n,,535
-macbook,12,2017,m3 1.2,M3-7Y32,1468,1,8 gb,3,256 gb,3,ssd,n,,558
-macbook,12,2017,i5 1.3,I5-7Y54,2757,4,8 gb,3,512 gb,5,ssd,n,,870
-macbook air,11,2010,Core 1.6,SU9600,663,1,2 gb,1,128 gb,2,ssd,n,,310
-macbook air,13,2010,Core 1.86,SL9400,672,1,2 gb,1,128 gb,2,ssd,n,,168
-macbook air,13,2010,Core 1.86,SL9400,672,1,2 gb,1,256 gb,3,ssd,n,,205
-macbook air,13,2010,Core 2.13,SL9600,898,1,2 gb,1,256 gb,3,ssd,n,,204
-macbook air,11,2011,i5 1.6,I5-2467M,1607,1,2 gb,1,128 gb,2,ssd,n,,250
-macbook air,11,2011,i5 1.6,I5-2467M,1607,1,4 gb,2,128 gb,2,ssd,n,,257
-macbook air,11,2011,i5 1.6,I5-2467M,1607,1,2 gb,1,64 gb,1,ssd,n,,209
-macbook air,11,2011,i5 1.6,I5-2467M,1607,1,2 gb,1,64 gb,1,ssd,n,,209
-macbook air,11,2011,i7 1.8,I7-2677M,1802,2,4 gb,2,128 gb,2,ssd,n,,267
-macbook air,13,2011,i5 1.7,I5-2557M,1607,1,4 gb,2,128 gb,2,ssd,n,,251
-macbook air,13,2011,i5 1.7,I5-2557M,1607,1,4 gb,2,256 gb,3,ssd,n,,269
-macbook air,13,2011,i7 1.8,I7-2677M,1802,2,4 gb,2,256 gb,3,ssd,n,,310
-macbook air,11,2012,i5 1.7,I5-3317U,1966,2,4 gb,2,128 gb,2,ssd,n,,220
-macbook air,11,2012,i5 1.7,I5-3317U,1966,2,4 gb,2,64 gb,1,ssd,n,,232
-macbook air,13,2012,i5 1.8,I5-3427U,2355,3,4 gb,2,128 gb,2,ssd,n,,286
-macbook air,13,2012,i5 1.8,I5-3427U,2355,3,4 gb,2,256 gb,3,ssd,n,,271
-macbook air,11,2013,i5 1.3,I5-4250U,2319,3,4 gb,2,128 gb,2,ssd,n,,246
-macbook air,11,2013,i5 1.3,I5-4250U,2319,3,4 gb,2,256 gb,3,ssd,n,,333
-macbook air,13,2013,i5 1.3,I5-4250U,2319,3,4 gb,2,128 gb,2,ssd,n,,320
-macbook air,13,2013,i5 1.3,I5-4250U,2319,3,4 gb,2,256 gb,3,ssd,n,,308
-macbook air,11,2014,i5 1.4,I5-4260U,2497,4,4 gb,2,128 gb,2,ssd,n,,313
-macbook air,11,2014,i5 1.4,I5-4260U,2497,4,4 gb,2,256 gb,3,ssd,n,,361
-macbook air,13,2014,i7 1.7,I7-4650U,2176,3,4 gb,2,128 gb,2,ssd,n,,375
-macbook air,13,2014,i5 1.4,I5-4260U,2497,4,4 gb,2,128 gb,2,ssd,n,,334
-macbook air,13,2014,i5 1.4,I5-4260U,2497,4,4 gb,2,256 gb,3,ssd,n,,341
-macbook air,11,2015,i5 1.6,I5-5250U,2525,4,4 gb,2,128 gb,2,ssd,n,,388
-macbook air,13,2015,i5 1.6,I5-5250U,2525,4,4 gb,2,128 gb,2,ssd,n,,374
-macbook air,13,2015,i5 1.6,I5-5250U,2525,4,4 gb,2,256 gb,3,ssd,n,,351
-macbook air,13,2017,i5 1.8,I5-5350U,1472,1,8 gb,3,128 gb,2,ssd,n,,525
-macbook air,13,2017,i5 1.8,I5-5350U,1472,1,8 gb,3,256 gb,3,ssd,n,,567
-macbook air,13,2017,i7 2.2,I7-5650U,1855,2,8 gb,3,128 gb,2,ssd,n,,496
-macbook air,13,2017,i7 2.2,I7-5650U,1855,2,8 gb,3,256 gb,3,ssd,n,,556
-macbook air,13,2018,i5 1.6,I5-8210Y,2860,5,8 gb,3,128 gb,2,ssd,n,,747
-macbook air,13,2018,i5 1.6,I5-8210Y,2860,5,8 gb,3,256 gb,3,ssd,n,,736
-macbook air,13,2019,i5 1.6,I5-8210Y,2860,5,8 gb,3,128 gb,2,ssd,n,,794
-macbook air,13,2019,i5 1.6,I5-8210Y,2860,5,8 gb,3,256 gb,3,ssd,n,,781
-macbook pro,13,2010,duo 2.4,P8600,847,1,4 gb,2,250 gb,3,hdd,n,,190
-macbook pro,13,2010,duo 2.66,P8800,916,1,4 gb,2,320 gb,4,hdd,n,,173
-macbook pro,15,2010,i5 2.4,I5-520M,1687,2,4 gb,2,320 gb,4,hdd,n,,227
-macbook pro,15,2010,i5 2.53,I5-540M,1698,2,4 gb,2,500 gb,5,hdd,n,,201
-macbook pro,15,2010,i7 2.66,I7-620M,1939,2,4 gb,2,500 gb,5,hdd,n,,184
-macbook pro,15,2010,i7 2.8,I7-640M,2095,3,4 gb,2,500 gb,5,hdd,n,,167
-macbook pro,17,2010,i5 2.53,I5-540M,1698,2,4 gb,2,500 gb,5,hdd,n,,276
-macbook pro,13,2011,i5 2.3,I5-2415M,1872,2,4 gb,2,320 gb,4,hdd,n,,228
-macbook pro,13,2011,i5 2.4,I5-2435M,1872,2,4 gb,2,500 gb,5,hdd,n,,238
-macbook pro,13,2011,i7 2.7 ,I7-2620M,2355,3,4 gb,2,500 gb,5,hdd,n,,273
-macbook pro,13,2011,i7 2.8,I7-2640M,2477,4,4 gb,2,750 gb,6,hdd,n,,334
-macbook pro,15,2011,i7 2.2,I7-2675QM,3162,5,4 gb,2,750 gb,6,hdd,n,,357
-macbook pro,15,2011,i7 2.0,I7-2635QM,3224,5,4 gb,2,500 gb,5,hdd,n,,236
-macbook pro,15,2011,i7 2.2,I7-2675QM,3162,5,4 gb,2,750 gb,6,hdd,n,,357
-macbook pro,15,2011,i7 2.5,I7-2860QM,4480,7,4 gb,2,750 gb,6,hdd,n,,320
-macbook pro,13,2012,i5 2.5,I5-3210M,2430,4,8 gb,3,128 gb,2,ssd,n,,316
-macbook pro,13,2012,i5 2.5,I5-3210M,2430,4,8 gb,3,256 gb,3,ssd,n,,288
-macbook pro,13,2012,i5 2.5,I5-3210M,2430,4,4 gb,2,500 gb,5,hdd,n,,304
-macbook pro,13,2012,i7 2.9,I7-3520M,2829,5,8 gb,3,128 gb,2,ssd,n,,305
-macbook pro,13,2012,i7 2.9,I7-3520M,2829,5,8 gb,3,256 gb,3,ssd,n,,357
-macbook pro,13,2012,i7 2.9,I7-3520M,2829,5,8 gb,3,500 gb,5,hdd,n,,386
-macbook pro,15,2012,i7 2.3,I7-3615QM,4961,7,8 gb,3,256 gb,3,ssd,n,,450
-macbook pro,15,2012,i7 2.3,I7-3615QM,4961,7,4 gb,2,500 gb,5,hdd,n,,385
-macbook pro,15,2012,i7 2.6,I7-3720QM,5694,8,8 gb,3,512 gb,5,ssd,n,,507
-macbook pro,15,2012,i7 2.6,I7-3720QM,5694,8,8 gb,3,750 gb,6,hdd,n,,538
-macbook pro,13,2013,i5 2.6,I5-3230M,2478,4,8 gb,3,256 gb,3,ssd,n,,388
-macbook pro,13,2013,i7 3.0,I7-3540M,2877,5,8 gb,3,256 gb,3,ssd,n,,350
-macbook pro,15,2013,i7 2.0,I7-4750HQ,5633,8,8 gb,3,256 gb,3,ssd,n,,454
-macbook pro,15,2013,i7 2.6,I7-4960HQ,6582,8,16 gb,4,512 gb,5,ssd,y,gt 750m,525
-macbook pro,13,2014,i5 2.8,I5-4308U,2852,5,8 gb,3,512 gb,5,ssd,n,,542
-macbook pro,13,2014,i5 2.6,I5-4278U,3003,5,8 gb,3,128 gb,2,ssd,n,,373
-macbook pro,13,2014,i5 2.6,I5-4278U,3003,5,8 gb,3,256 gb,3,ssd,n,,441
-macbook pro,15,2014,i7 2.2,I7-4770HQ,6061,8,16 gb,4,256 gb,3,ssd,n,,563
-macbook pro,15,2014,i7 2.5,I7-4870HQ,6353,8,16 gb,4,256 gb,3,ssd,n,,514
-macbook pro,15,2014,i7 2.5,I7-4870HQ,6353,8,16 gb,4,512 gb,5,ssd,y,gt 750m,999
-macbook pro,15,2014,i7 2.8,I7-4980HQ,6726,8,16 gb,4,256 gb,3,ssd,n,,615
-macbook pro,15,2014,i7 2.8,I7-4980HQ,6726,8,16 gb,4,512 gb,5,ssd,y,gt 750m,662
-macbook pro,13,2015,i5 2.9,I5-5287U,3225,6,8 gb,3,512 gb,5,ssd,n,,598
-macbook pro,13,2015,i5 2.7,I5-5257U,3269,6,8 gb,3,128 gb,2,ssd,n,,477
-macbook pro,13,2015,i5 2.7,I5-5257U,3269,6,8 gb,3,256 gb,3,ssd,n,,514
-macbook pro,13,2015,i7 3.1 ,I7-5557U,3597,6,8 gb,3,256 gb,3,ssd,n,,742
-macbook pro,13,2015,i7 3.1 ,I7-5557U,3597,6,8 gb,3,512 gb,5,ssd,n,,801
-macbook pro,15,2015,i7 2.2,I7-4770HQ,6061,8,16 gb,4,256 gb,3,ssd,n,,675
-macbook pro,15,2015,i7 2.5,I7-4870HQ,6353,8,16 gb,4,256 gb,3,ssd,n,,647
-macbook pro,15,2015,i7 2.5,I7-4870HQ,6353,8,16 gb,4,512 gb,5,ssd,y,r9 m370x,804
-macbook pro,15,2015,i7 2.8,I7-4980HQ,6726,8,16 gb,4,1 tb,7,ssd,n,,1080
-macbook pro,15,2015,i7 2.8,I7-4980HQ,6726,8,16 gb,4,256 gb,3,ssd,n,,866
-macbook pro,15,2015,i7 2.8,I7-4980HQ,6726,8,16 gb,4,512 gb,5,ssd,y,r9 m370x,942
-macbook pro,13,2016,i5 2.9,I5-6267U,2903,5,8 gb,3,256 gb,3,ssd,n,,805
-macbook pro,13,2016,i5 2.9,I5-6267U,2903,5,8 gb,3,512 gb,5,ssd,n,,808
-macbook pro,13,2016,i5 2.0,I5-6360U,3273,6,8 gb,3,256 gb,3,ssd,n,,723
-macbook pro,13,2016,i7 2.4,I7-6660U,3576,6,8 gb,3,256 gb,3,ssd,n,,682
-macbook pro,15,2016,i7 2.6,I7-6700HQ,6519,8,16 gb,4,256 gb,3,ssd,n,,927
-macbook pro,15,2016,i7 2.9,I7-6920HQ,6875,9,16 gb,4,256 gb,3,ssd,n,,1199
-macbook pro,15,2016,i7 2.7,I7-6820HQ,6875,9,16 gb,4,512 gb,5,ssd,n,,1069
-macbook pro,15,2016,i7 2.9,I7-6920HQ,6875,9,16 gb,4,512 gb,5,ssd,n,,1004
-macbook pro,13,2017,i5 3.1,I5-7267U,3993,6,8 gb,3,256 gb,3,ssd,n,,819
-macbook pro,13,2017,i5 3.1,I5-7267U,3993,6,8 gb,3,512 gb,5,ssd,n,,868
-macbook pro,13,2017,i7 3.5,I7-7567U,4070,7,8 gb,3,256 gb,3,ssd,n,,950
-macbook pro,13,2017,i5 2.3,I5-7360U,4350,7,8 gb,3,128 gb,2,ssd,n,,683
-macbook pro,13,2017,i5 2.3,I5-7360U,4350,7,8 gb,3,256 gb,3,ssd,n,,676
-macbook pro,13,2017,i7 2.5,I7-7660U,4369,7,8 gb,3,256 gb,3,ssd,n,,737
-macbook pro,15,2017,i7 2.8,I7-7700HQ,6936,9,16 gb,4,256 gb,3,ssd,n,,1106
-macbook pro,15,2017,i7 2.9,I7-7820HQ,7365,9,16 gb,4,512 gb,5,ssd,n,,1320
-macbook pro,15,2017,i7 3.1 ,I7-7920HQ,7976,9,16 gb,4,512 gb,5,ssd,n,,1227
-macbook pro,13,2018,i5 2.3,I5-8259U,8381,9,8 gb,3,256 gb,3,ssd,n,,1012
-macbook pro,13,2018,i5 2.3,I5-8259U,8381,9,8 gb,3,512 gb,5,ssd,n,,1185
-macbook pro,15,2018,i7 2.2,I7-8750H,10236,10,16 gb,4,256 gb,3,ssd,n,,1362
-macbook pro,15,2018,i7 2.6,I7-8850H,10514,10,16 gb,4,512 gb,5,ssd,n,,1638
-macbook pro,15,2018,i7 2.6,I7-8850H,10514,10,16 gb,4,512 gb,5,ssd,y,vega,1638
-macbook pro,15,2018,i9 2.9,I9-8950HK,11143,10,16 gb,4,512 gb,5,ssd,n,,1934
-macbook pro,15,2018,i9 2.9,I9-8950HK,11143,10,16 gb,4,512 gb,5,ssd,y,vega,1934
-macbook pro,13,2019,i5 2.4,I5-8279U,7983,9,8 gb,3,256 gb,3,ssd,n,,1178
-macbook pro,13,2019,i5 2.4,I5-8279U,7983,9,8 gb,3,512 gb,5,ssd,n,,1302
-macbook pro,13,2019,i5 1.4,I5-8257U,8246,9,8 gb,3,128 gb,2,ssd,n,,979
-macbook pro,13,2019,i5 1.4,I5-8257U,8246,9,8 gb,3,256 gb,3,ssd,n,,1052
-macbook pro,15,2019,i7 2.6,I7-9750H,11496,10,16 gb,4,256 gb,3,ssd,n,,1493
-macbook pro,15,2019,i9 2.3,I9-9880H,13876,10,16 gb,4,512 gb,5,ssd,n,,1861
-macbook pro,15,2019,i9 2.3,I9-9880H,13876,10,16 gb,4,512 gb,5,ssd,y,vega,1861
-macbook pro,16,2019,i7 2.6,I7-9750H,11496,10,16 gb,4,512 gb,5,ssd,n,,1957
-macbook pro,16,2019,i9 2.3,I9-9880H,13876,10,16 gb,4,1 tb,7,ssd,n,,2425
+product,screen_size,year,cpu,cpu_model,cpu_score,cpu_rank,ram,ram_rank,storage,storage_rank,storage_type,d_video_card,d_vc_model,keyMean,FixListingMeanPrice
+macbook air,11,2010,Core 1.6,SU9600,663,1,2 gb,1,128 gb,2,ssd,n,,310,310
+macbook air,13,2010,Core 1.86,SL9400,672,1,2 gb,1,128 gb,2,ssd,n,,168,189
+macbook air,13,2010,Core 1.86,SL9400,672,1,2 gb,1,256 gb,3,ssd,n,,205,205
+macbook pro,13,2010,duo 2.4,P8600,847,1,4 gb,2,250 gb,3,hdd,n,,190,193
+macbook air,13,2010,Core 2.13,SL9600,898,1,2 gb,1,256 gb,3,ssd,n,,204,210
+macbook pro,13,2010,duo 2.66,P8800,916,1,4 gb,2,320 gb,4,hdd,n,,173,177
+macbook,12,2016,m3 1.1,M3-6Y30,1027,1,8 gb,3,256 gb,3,ssd,n,,566,555
+macbook,12,2016,m7 1.3,M7-6Y75,1303,1,8 gb,3,256 gb,3,ssd,n,,690,690
+macbook,12,2016,m7 1.3,M7-6Y75,1303,1,8 gb,3,512 gb,5,ssd,n,,526,648
+macbook,12,2016,m5 1.2,M5-6Y54,1409,1,8 gb,3,512 gb,5,ssd,n,,535,600
+macbook,12,2017,m3 1.2,M3-7Y32,1468,1,8 gb,3,256 gb,3,ssd,n,,558,609
+macbook air,13,2017,i5 1.8,I5-5350U,1472,1,8 gb,3,128 gb,2,ssd,n,,525,590
+macbook air,13,2017,i5 1.8,I5-5350U,1472,1,8 gb,3,256 gb,3,ssd,n,,567,613
+macbook,12,2015,m 1.2,M-5Y51,1523,1,8 gb,3,512 gb,5,ssd,n,,494,548
+macbook air,11,2011,i5 1.6,I5-2467M,1607,1,2 gb,1,128 gb,2,ssd,n,,250,250
+macbook air,11,2011,i5 1.6,I5-2467M,1607,1,4 gb,2,128 gb,2,ssd,n,,257,319
+macbook air,11,2011,i5 1.6,I5-2467M,1607,1,2 gb,1,64 gb,1,ssd,n,,209,220
+macbook air,11,2011,i5 1.6,I5-2467M,1607,1,2 gb,1,64 gb,1,ssd,n,,209,220
+macbook air,13,2011,i5 1.7,I5-2557M,1607,1,4 gb,2,128 gb,2,ssd,n,,251,251
+macbook air,13,2011,i5 1.7,I5-2557M,1607,1,4 gb,2,256 gb,3,ssd,n,,269,306
+macbook pro,15,2010,i5 2.4,I5-520M,1687,2,4 gb,2,320 gb,4,hdd,n,,227,226
+macbook pro,15,2010,i5 2.53,I5-540M,1698,2,4 gb,2,500 gb,5,hdd,n,,201,223
+macbook pro,17,2010,i5 2.53,I5-540M,1698,2,4 gb,2,500 gb,5,hdd,n,,276,304
+macbook air,11,2011,i7 1.8,I7-2677M,1802,2,4 gb,2,128 gb,2,ssd,n,,267,267
+macbook air,13,2011,i7 1.8,I7-2677M,1802,2,4 gb,2,256 gb,3,ssd,n,,310,338
+macbook air,13,2017,i7 2.2,I7-5650U,1855,2,8 gb,3,128 gb,2,ssd,n,,496,496
+macbook air,13,2017,i7 2.2,I7-5650U,1855,2,8 gb,3,256 gb,3,ssd,n,,556,597
+macbook pro,13,2011,i5 2.3,I5-2415M,1872,2,4 gb,2,320 gb,4,hdd,n,,228,243
+macbook pro,13,2011,i5 2.4,I5-2435M,1872,2,4 gb,2,500 gb,5,hdd,n,,238,255
+macbook pro,15,2010,i7 2.66,I7-620M,1939,2,4 gb,2,500 gb,5,hdd,n,,184,239
+macbook air,11,2012,i5 1.7,I5-3317U,1966,2,4 gb,2,128 gb,2,ssd,n,,220,257
+macbook air,11,2012,i5 1.7,I5-3317U,1966,2,4 gb,2,64 gb,1,ssd,n,,232,246
+macbook,12,2015,m 1.1,M-5Y31,1972,2,8 gb,3,256 gb,3,ssd,n,,483,521
+macbook,12,2015,m 1.3,M-5Y71,2002,2,8 gb,3,256 gb,3,ssd,n,,450,450
+macbook,12,2015,m 1.3,M-5Y71,2002,2,8 gb,3,512 gb,5,ssd,n,,484,484
+macbook pro,15,2010,i7 2.8,I7-640M,2095,3,4 gb,2,500 gb,5,hdd,n,,167,167
+macbook air,13,2014,i7 1.7,I7-4650U,2176,3,4 gb,2,128 gb,2,ssd,n,,375,375
+macbook air,11,2013,i5 1.3,I5-4250U,2319,3,4 gb,2,128 gb,2,ssd,n,,246,296
+macbook air,11,2013,i5 1.3,I5-4250U,2319,3,4 gb,2,256 gb,3,ssd,n,,333,312
+macbook air,13,2013,i5 1.3,I5-4250U,2319,3,4 gb,2,128 gb,2,ssd,n,,320,309
+macbook air,13,2013,i5 1.3,I5-4250U,2319,3,4 gb,2,256 gb,3,ssd,n,,308,311
+macbook air,13,2012,i5 1.8,I5-3427U,2355,3,4 gb,2,128 gb,2,ssd,n,,286,308
+macbook air,13,2012,i5 1.8,I5-3427U,2355,3,4 gb,2,256 gb,3,ssd,n,,271,285
+macbook pro,13,2011,i7 2.7 ,I7-2620M,2355,3,4 gb,2,500 gb,5,hdd,n,,273,317
+macbook pro,13,2012,i5 2.5,I5-3210M,2430,4,8 gb,3,128 gb,2,ssd,n,,316,318
+macbook pro,13,2012,i5 2.5,I5-3210M,2430,4,8 gb,3,256 gb,3,ssd,n,,288,288
+macbook pro,13,2012,i5 2.5,I5-3210M,2430,4,4 gb,2,500 gb,5,hdd,n,,304,359
+macbook pro,13,2011,i7 2.8,I7-2640M,2477,4,4 gb,2,750 gb,6,hdd,n,,334,346
+macbook pro,13,2013,i5 2.6,I5-3230M,2478,4,8 gb,3,256 gb,3,ssd,n,,388,409
+macbook air,11,2014,i5 1.4,I5-4260U,2497,4,4 gb,2,128 gb,2,ssd,n,,313,316
+macbook air,11,2014,i5 1.4,I5-4260U,2497,4,4 gb,2,256 gb,3,ssd,n,,361,359
+macbook air,13,2014,i5 1.4,I5-4260U,2497,4,4 gb,2,128 gb,2,ssd,n,,334,333
+macbook air,13,2014,i5 1.4,I5-4260U,2497,4,4 gb,2,256 gb,3,ssd,n,,341,323
+macbook air,11,2015,i5 1.6,I5-5250U,2525,4,4 gb,2,128 gb,2,ssd,n,,388,394
+macbook air,13,2015,i5 1.6,I5-5250U,2525,4,4 gb,2,128 gb,2,ssd,n,,374,411
+macbook air,13,2015,i5 1.6,I5-5250U,2525,4,4 gb,2,256 gb,3,ssd,n,,351,406
+macbook,12,2017,i5 1.3,I5-7Y54,2757,4,8 gb,3,512 gb,5,ssd,n,,870,870
+macbook pro,13,2012,i7 2.9,I7-3520M,2829,5,8 gb,3,128 gb,2,ssd,n,,305,305
+macbook pro,13,2012,i7 2.9,I7-3520M,2829,5,8 gb,3,256 gb,3,ssd,n,,357,379
+macbook pro,13,2012,i7 2.9,I7-3520M,2829,5,8 gb,3,500 gb,5,hdd,n,,386,388
+macbook pro,13,2014,i5 2.8,I5-4308U,2852,5,8 gb,3,512 gb,5,ssd,n,,542,542
+macbook air,13,2018,i5 1.6,I5-8210Y,2860,5,8 gb,3,128 gb,2,ssd,n,,747,764
+macbook air,13,2018,i5 1.6,I5-8210Y,2860,5,8 gb,3,256 gb,3,ssd,n,,736,756
+macbook air,13,2019,i5 1.6,I5-8210Y,2860,5,8 gb,3,128 gb,2,ssd,n,,794,809
+macbook air,13,2019,i5 1.6,I5-8210Y,2860,5,8 gb,3,256 gb,3,ssd,n,,781,890
+macbook pro,13,2013,i7 3.0,I7-3540M,2877,5,8 gb,3,256 gb,3,ssd,n,,350,350
+macbook pro,13,2016,i5 2.9,I5-6267U,2903,5,8 gb,3,256 gb,3,ssd,n,,805,849
+macbook pro,13,2016,i5 2.9,I5-6267U,2903,5,8 gb,3,512 gb,5,ssd,n,,808,824
+macbook pro,13,2014,i5 2.6,I5-4278U,3003,5,8 gb,3,128 gb,2,ssd,n,,373,424
+macbook pro,13,2014,i5 2.6,I5-4278U,3003,5,8 gb,3,256 gb,3,ssd,n,,441,483
+macbook pro,15,2011,i7 2.2,I7-2675QM,3162,5,4 gb,2,750 gb,6,hdd,n,,357,369
+macbook pro,15,2011,i7 2.0,I7-2635QM,3224,5,4 gb,2,500 gb,5,hdd,n,,236,239
+macbook pro,13,2015,i5 2.9,I5-5287U,3225,6,8 gb,3,512 gb,5,ssd,n,,598,611
+macbook pro,13,2015,i5 2.7,I5-5257U,3269,6,8 gb,3,128 gb,2,ssd,n,,477,670
+macbook pro,13,2015,i5 2.7,I5-5257U,3269,6,8 gb,3,256 gb,3,ssd,n,,514,577
+macbook pro,13,2016,i5 2.0,I5-6360U,3273,6,8 gb,3,256 gb,3,ssd,n,,723,741
+macbook pro,13,2016,i7 2.4,I7-6660U,3576,6,8 gb,3,256 gb,3,ssd,n,,682,750
+macbook pro,13,2015,i7 3.1 ,I7-5557U,3597,6,8 gb,3,256 gb,3,ssd,n,,742,742
+macbook pro,13,2015,i7 3.1 ,I7-5557U,3597,6,8 gb,3,512 gb,5,ssd,n,,801,845
+macbook pro,13,2017,i5 3.1,I5-7267U,3993,6,8 gb,3,256 gb,3,ssd,n,,819,908
+macbook pro,13,2017,i5 3.1,I5-7267U,3993,6,8 gb,3,512 gb,5,ssd,n,,868,1099
+macbook pro,13,2017,i7 3.5,I7-7567U,4070,7,8 gb,3,256 gb,3,ssd,n,,950,950
+macbook pro,15,2011,i7 2.2,I7-2675QM,3162,5,4 gb,2,750 gb,6,hdd,n,,357,369
+macbook pro,13,2017,i5 2.3,I5-7360U,4350,7,8 gb,3,128 gb,2,ssd,n,,683,704
+macbook pro,13,2017,i5 2.3,I5-7360U,4350,7,8 gb,3,256 gb,3,ssd,n,,676,768
+macbook pro,13,2017,i7 2.5,I7-7660U,4369,7,8 gb,3,256 gb,3,ssd,n,,737,737
+macbook pro,15,2011,i7 2.5,I7-2860QM,4480,7,4 gb,2,750 gb,6,hdd,n,,320,320
+macbook pro,15,2012,i7 2.3,I7-3615QM,4961,7,8 gb,3,256 gb,3,ssd,n,,450,466
+macbook pro,15,2012,i7 2.3,I7-3615QM,4961,7,4 gb,2,500 gb,5,hdd,n,,385,417
+macbook pro,15,2013,i7 2.0,I7-4750HQ,5633,8,8 gb,3,256 gb,3,ssd,n,,454,449
+macbook pro,15,2012,i7 2.6,I7-3720QM,5694,8,8 gb,3,512 gb,5,ssd,n,,507,513
+macbook pro,15,2012,i7 2.6,I7-3720QM,5694,8,8 gb,3,750 gb,6,hdd,n,,538,538
+macbook pro,15,2014,i7 2.2,I7-4770HQ,6061,8,16 gb,4,256 gb,3,ssd,n,,563,579
+macbook pro,15,2015,i7 2.2,I7-4770HQ,6061,8,16 gb,4,256 gb,3,ssd,n,,675,700
+macbook pro,15,2014,i7 2.5,I7-4870HQ,6353,8,16 gb,4,256 gb,3,ssd,n,,514,541
+macbook pro,15,2014,i7 2.5,I7-4870HQ,6353,8,16 gb,4,512 gb,5,ssd,y,gt 750m,999,999
+macbook pro,15,2015,i7 2.5,I7-4870HQ,6353,8,16 gb,4,256 gb,3,ssd,n,,647,637
+macbook pro,15,2015,i7 2.5,I7-4870HQ,6353,8,16 gb,4,512 gb,5,ssd,y,r9 m370x,804,749
+macbook pro,15,2016,i7 2.6,I7-6700HQ,6519,8,16 gb,4,256 gb,3,ssd,n,,927,1105
+macbook pro,15,2013,i7 2.6,I7-4960HQ,6582,8,16 gb,4,512 gb,5,ssd,y,gt 750m,525,525
+macbook pro,15,2014,i7 2.8,I7-4980HQ,6726,8,16 gb,4,256 gb,3,ssd,n,,615,615
+macbook pro,15,2014,i7 2.8,I7-4980HQ,6726,8,16 gb,4,512 gb,5,ssd,y,gt 750m,662,674
+macbook pro,15,2015,i7 2.8,I7-4980HQ,6726,8,16 gb,4,1 tb,7,ssd,n,,1080,1035
+macbook pro,15,2015,i7 2.8,I7-4980HQ,6726,8,16 gb,4,256 gb,3,ssd,n,,866,866
+macbook pro,15,2015,i7 2.8,I7-4980HQ,6726,8,16 gb,4,512 gb,5,ssd,y,r9 m370x,942,1097
+macbook pro,15,2016,i7 2.9,I7-6920HQ,6875,9,16 gb,4,256 gb,3,ssd,n,,1199,1199
+macbook pro,15,2016,i7 2.7,I7-6820HQ,6875,9,16 gb,4,512 gb,5,ssd,n,,1069,1118
+macbook pro,15,2016,i7 2.9,I7-6920HQ,6875,9,16 gb,4,512 gb,5,ssd,n,,1004,1475
+macbook pro,15,2017,i7 2.8,I7-7700HQ,6936,9,16 gb,4,256 gb,3,ssd,n,,1106,1203
+macbook pro,15,2017,i7 2.9,I7-7820HQ,7365,9,16 gb,4,512 gb,5,ssd,n,,1320,1347
+macbook pro,15,2017,i7 3.1 ,I7-7920HQ,7976,9,16 gb,4,512 gb,5,ssd,n,,1227,1349
+macbook pro,13,2019,i5 2.4,I5-8279U,7983,9,8 gb,3,256 gb,3,ssd,n,,1178,1194
+macbook pro,13,2019,i5 2.4,I5-8279U,7983,9,8 gb,3,512 gb,5,ssd,n,,1302,1347
+macbook pro,13,2019,i5 1.4,I5-8257U,8246,9,8 gb,3,128 gb,2,ssd,n,,979,974
+macbook pro,13,2019,i5 1.4,I5-8257U,8246,9,8 gb,3,256 gb,3,ssd,n,,1052,1084
+macbook pro,13,2018,i5 2.3,I5-8259U,8381,9,8 gb,3,256 gb,3,ssd,n,,1012,1055
+macbook pro,13,2018,i5 2.3,I5-8259U,8381,9,8 gb,3,512 gb,5,ssd,n,,1185,1218
+macbook pro,15,2018,i7 2.2,I7-8750H,10236,10,16 gb,4,256 gb,3,ssd,n,,1362,1413
+macbook pro,15,2018,i7 2.6,I7-8850H,10514,10,16 gb,4,512 gb,5,ssd,n,,1638,1740
+macbook pro,15,2018,i7 2.6,I7-8850H,10514,10,16 gb,4,512 gb,5,ssd,y,vega,1638,1740
+macbook pro,15,2018,i9 2.9,I9-8950HK,11143,10,16 gb,4,512 gb,5,ssd,n,,1934,2073
+macbook pro,15,2018,i9 2.9,I9-8950HK,11143,10,16 gb,4,512 gb,5,ssd,y,vega,1934,2073
+macbook pro,15,2019,i7 2.6,I7-9750H,11496,10,16 gb,4,256 gb,3,ssd,n,,1493,1629
+macbook pro,16,2019,i7 2.6,I7-9750H,11496,10,16 gb,4,512 gb,5,ssd,n,,1957,1749
+macbook pro,15,2019,i9 2.3,I9-9880H,13876,10,16 gb,4,512 gb,5,ssd,n,,1861,1925
+macbook pro,15,2019,i9 2.3,I9-9880H,13876,10,16 gb,4,512 gb,5,ssd,y,vega,1861,1925
+macbook pro,16,2019,i9 2.3,I9-9880H,13876,10,16 gb,4,1 tb,7,ssd,n,,2425,2555
