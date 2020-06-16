@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 import numpy as np
 from ebaysdk.finding import Connection as finding
+import datetime
 
 # year = st.slider('year of purchase', min_value=2015, max_value=2019, value=2015)
 # st.markdown(f"your laptop was purchase in {year}")
@@ -27,8 +28,6 @@ brand_filtered_data = computer_cat.loc[computer_cat['product'] == brand_selected
 years = brand_filtered_data['year'].unique()
 
 
-#year_selected = st.sidebar.slider('year of manufacture', min_value=int(years.min()), max_value=int(years.max()), value=int(years.min()))
-
 year_selected = st.sidebar.selectbox("Year choices", list(brand_filtered_data['year'].unique()), 0)
 
 year_filtered_data = brand_filtered_data.loc[brand_filtered_data['year'] == year_selected]
@@ -47,29 +46,6 @@ storage_selected = st.sidebar.selectbox("Hard drive choices", list(storage_filte
 storage_type_filtered_data = storage_filtered_data.loc[storage_filtered_data['storage'] == storage_selected]
 storage_type_selected = st.sidebar.selectbox("Hard drive type choices", list(storage_filtered_data['storage_type'].unique()), 0)
 
-
-cpu_rank = list(computer_cat[computer_cat['cpu'] ==  cpu_selected]['cpu_rank'].unique())
-
-ram_rank = list(computer_cat[computer_cat['ram'] ==  ram_selected]['ram_rank'].unique())
-
-storage_rank = list(computer_cat[computer_cat['storage'] ==  storage_selected]['storage_rank'].unique())
-
-
-# if brand_selected == 'macbook':
-#     temp = [1, 0, 0]
-# elif brand_selected == 'macbook pro':
-#     temp = [0, 1, 0]
-# elif brand_selected == 'macbook air':
-#     temp = [0, 0, 1]
-
-
-#st.write(temp)
-
-predictors = [int(screen_size_selected), int(year_selected), int(cpu_rank[0]), int(ram_rank[0]), int(storage_rank[0])]
-
-loaded_model = pickle.load(open('./data/rf_regrssor.pkl', 'rb'))
-#value = round(loaded_model.predict([predictors+temp])[0])
-value = round(loaded_model.predict([predictors])[0])
 
 
 
@@ -128,16 +104,38 @@ def check_current_listing(keywords):
     return df_realtime
 
 
+keyMean = storage_type_filtered_data['keyMean'].iat[0]
+
 keywords = brand_selected+' '+str(screen_size_selected) +' '+ str(year_selected) +' '+ cpu_selected + ' '+ram_selected + ' '+ storage_selected +' -parts -repair -read'
 df_realtime = check_current_listing(keywords)
-numListing = df_realtime.shape[0]
+numACU = df_realtime[df_realtime['listingType'] == 'auction'].shape[0]
+numFIX = df_realtime[df_realtime['listingType'] == 'fixedprice'].shape[0]
+
+if numFIX == 0:
+    FixListingMeanPrice = keyMean
+else:
+    FixListingMeanPrice = df_realtime[df_realtime['listingType'] == 'fixedprice']['price'].mean()
+
+# heroku server apparently 4 hours ahead of EDT
+now = datetime.datetime.now() - datetime.timedelta(hours=4)
+startDayInWeek = now.isoweekday()
+startHourInDay = now.hour
+now_string = now.strftime("%Y-%m-%d %H:%M")
+
+keyMean = storage_type_filtered_data['keyMean'].iat[0]
 
 
-st.write(f'The market value of your mac is ${int(value)}! The number of current listings of the selected laptop is {numListing}.')
+predictors = [startDayInWeek, startHourInDay, FixListingMeanPrice, numACU, numFIX]
+# predictors = [4, 16.5833 , 849, 50, 0]
 
-# if numListing >0:
-#     price_listing_mean = df_realtime['price'].mean()
-#     st.write(f'The everage of prices of the current listings of the selected laptop is ${int(price_listing_mean)}.')
+loaded_model = pickle.load(open('./data/rf_classifier.pkl', 'rb'))
+#value = round(loaded_model.predict([predictors+temp])[0])
+if loaded_model.predict([predictors])[0] == 1:
+    aboveORnot = 'above'
+else:
+    aboveORnot = 'lower than'
+
+
 
 @st.cache
 def load_imag():
@@ -150,3 +148,5 @@ def show_imag():
     st.image(list(url)[0], width=400)
 
 show_imag()
+
+st.write(f'As of now {now_string}, the average price of current fixed-price listing is ${int(FixListingMeanPrice)}. We recommend you to set a price {aboveORnot} ${int(FixListingMeanPrice)}.')
