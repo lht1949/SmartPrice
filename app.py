@@ -134,8 +134,7 @@ keyMean = storage_type_filtered_data['keyMean'].iat[0]
 
 predictors = [int(screen_size_selected), int(year_selected),   int(ram_rank[0]),  int(storage_rank[0]), int(cpu_score[0]), startDayInWeek, startHourInDay, float(FixListingMeanPrice), numACU, numFIX]
 
-st.write(predictors )
-st.write(keyMean)
+
 loaded_model = pickle.load(open('./data/rf_regressor_t.pkl', 'rb'))
 value = round(loaded_model.predict([predictors])[0])
 
@@ -152,5 +151,3 @@ def show_imag():
     st.image(list(url)[0], width=400)
 
 show_imag()
-
-st.write(f'As of now {now_string}, the average price of current fixed-price listing is ${int(FixListingMeanPrice)}. We recommend you to set a price {aboveORnot} ${int(FixListingMeanPrice)}.')
